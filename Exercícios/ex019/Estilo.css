@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*  Tudo que é id = em HTML é igual a # em CSS (um elemento por página)
+    Tudo que é class = em HTML é igual a . em CSS (vários elementos por página) */
+
+
+body {
+    background-color: rgba(9, 66, 116, 0.509);
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    color: rgb(78, 38, 38);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(78, 38, 38);
+    color: white;
+}
+
+.basico{
+    color: rgb(78, 38, 38);
+    font-style: italic;
+}
+
+.intermediario{
+    color: rgb(0, 62, 128);
+    text-decoration: underline;
+}
+
+.avancado{
+    color: rgb(219, 22, 22);
+}
+
+.destaque{
+    background-color: rgba(194, 194, 48, 0.732);
+}
+
+.marcado{
+    color: blueviolet;
+}

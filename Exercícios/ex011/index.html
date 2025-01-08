@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midías HTML</title>
+</head>
+
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p> Tente abrir este site em diferentes dispositivos</p>
+    <h2>Começando do menor para o maior(min-width)</h2>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="imagem flexível">
+    </picture>
+    <h2>Começando do maior para o menor(max-width)</h2>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudiosdios</h1>
+    <p>Vamos aprender a reproduzir aúdios em HTML5</p>
+    <audio preload="metadata"  controls >
+        <source src="midia/MovingInTheShadows -The Soundlings.mp3" type="audio/mpeg">
+        <source src="midia/MovingInTheShadows -The Soundlings.ogg" type="audio/ogg">
+        <source src="midia/MovingInTheShadows -The Soundlings.wav" type="audio/wav">
+    </audio>
+
+    <p>Infelizmente seu navegador não pussui compatibilidade com áudios, faça o dowload do arquivo clicando aqui <a
+            href="midia/MovingInTheShadows -The Soundlings.mp3" type="application/mpeg" download="musica/mp3"> Arquivo.mp3</a></p>
+           
+
+
+
+
+</body>
+
+</html>

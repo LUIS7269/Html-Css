@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: gray;
+            margin:0px
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header>h1 {
+            padding-left: 5px;
+        }
+
+        nav {
+            background-color: rgb(152, 149, 149);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.535);
+        }
+
+        nav>a {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        nav>a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+        box-shadow: 2px 2px 0px 1px #00000018;
+        }
+
+
+        article>p {
+            font-size: 1em;
+        }
+
+        article {
+            background-color: lightgray;
+            font-size: 1em;
+            padding: 10px;
+        }
+
+        article>h2 {
+            font-size: 2.5em;
+            text-decoration: underline;
+        }
+
+       article > aside{
+        background-color: gray;
+        
+       }
+
+      
+      
+       footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0px;
+        padding: 4px;
+       }
+
+       footer > p{
+        margin: 0px;
+       }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Futebol e tecnologia avançada</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus aliquid
+                    laudantium facilis explicabo voluptatem debitis veritatis culpa fugiat quas, accusantium
+                    voluptatibus magnam nisi quisquam eos, quasi similique nesciunt eaque?</p>
+                <aside>
+                    Escrito por Mateus Gasen
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Lucas P</p>
+    </footer>
+</body>
+
+</html>
