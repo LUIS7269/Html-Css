@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            text-align: center;
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption{
+            font-size: 1.5em;
+            padding: 10px;
+        }
+
+        col.cnome{
+            background-color: blue;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Lucas P</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Pedreiro</td>
+        </tr>
+        <tr>
+            <td>Maria T</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Estevão</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Advogado</td>
+        </tr>
+        <tr>
+            <td>Mateus Battisti</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Piloto de avião</td>
+        </tr>
+        <tr>
+            <td>Leticía Angoleri</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Modelo</td>
+        </tr>
+        <tr>
+            <td>Augusto Angoleri</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Geógrafo</td>
+        </tr>
+    </table>
+</body>
+</html>
